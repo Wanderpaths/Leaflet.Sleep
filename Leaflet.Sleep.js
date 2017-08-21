@@ -62,7 +62,7 @@ L.Map.mergeOptions({
   sleep: true,
   sleepTime: 750,
   wakeTime: 750,
-  wakeMessageTouch: 'Touch to Wake',
+  wakeMessageTouch: 'Clique ou mova habilitar',
   sleepNote: true,
   hoverToWake: true,
   sleepOpacity:.7,
