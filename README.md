@@ -45,7 +45,7 @@ These are the new options available for `L.map` and their defaults.
         hoverToWake: true,
 
         // a message to inform users about waking the map
-        wakeMessage: 'Click or Hover to Wake',
+        wakeMessage: 'Clique ou mova habilitar',
 
         // a constructor for a control button
         sleepButton: L.Control.sleepMapControl,
