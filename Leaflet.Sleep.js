@@ -123,9 +123,9 @@ L.Map.Sleep = L.Handler.extend({
     } else if (this._map.options.wakeMessage) {
       noteString = this._map.options.wakeMessage;
     } else if (this._map.options.hoverToWake) {
-      noteString = 'click or hover to wake';
+      noteString = 'Clique ou mova habilitar';
     } else {
-      noteString = 'click to wake';
+      noteString = 'Clique habilitar';
     }
 
     if( this._map.options.sleepNote ){
