@@ -62,7 +62,7 @@ L.Map.mergeOptions({
   sleep: true,
   sleepTime: 750,
   wakeTime: 750,
-  wakeMessageTouch: 'Clique ou mova habilitar',
+  wakeMessageTouch: 'Clique ou mova para habilitar',
   sleepNote: true,
   hoverToWake: true,
   sleepOpacity:.7,
@@ -123,9 +123,9 @@ L.Map.Sleep = L.Handler.extend({
     } else if (this._map.options.wakeMessage) {
       noteString = this._map.options.wakeMessage;
     } else if (this._map.options.hoverToWake) {
-      noteString = 'Clique ou mova habilitar';
+      noteString = 'Clique ou mova para habilitar';
     } else {
-      noteString = 'Clique habilitar';
+      noteString = 'Clique para habilitar';
     }
 
     if( this._map.options.sleepNote ){
